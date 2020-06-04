@@ -18,3 +18,22 @@ react로 영화 앱 만들기
   - rander()
 - state
   - setState
+
+6/5
+
+생명주기 함수
+
+- 마운트로 분류 - 실행순서
+
+  - constructor()
+  - render()
+  - componentDidMount() : render 함수가 실행되면 호출되는 함수
+
+- 컴포넌트 업데이트시 실행
+
+  - componentDidUpdate()
+
+- 언마운트로 분류 - 컴포넌트 삭제시 실행
+  - componentWillUnmount()
+
+isLoading state
