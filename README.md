@@ -37,3 +37,16 @@ react로 영화 앱 만들기
   - componentWillUnmount()
 
 isLoading state
+
+6/7
+
+- axios
+- async / await
+
+6/8
+
+6/9
+
+- component 생성
+- state를 사용하지 않기 때문에 function component 생성
+- API 파라미터
