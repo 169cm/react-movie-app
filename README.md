@@ -50,3 +50,9 @@ isLoading state
 - component 생성
 - state를 사용하지 않기 때문에 function component 생성
 - API 파라미터
+
+6/10
+
+- react Jsx markup
+- className
+- css import
