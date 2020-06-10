@@ -33,20 +33,22 @@ class App extends React.Component {
             <span className="loader__text">Loading...</span>
           </div>
         ) : (
-          <div className="moives">
-            {movies.map(({ id, year, title, summary, medium_cover_image }) => {
-              console.log({ id, year, title, summary, medium_cover_image });
-              return (
-                <Movie
-                  key={id}
-                  id={id}
-                  year={year}
-                  title={title}
-                  summary={summary}
-                  poster={medium_cover_image}
-                />
-              );
-            })}
+          <div className="movies">
+            {movies.map(
+              ({ id, year, title, summary, medium_cover_image, genres }) => {
+                return (
+                  <Movie
+                    key={id}
+                    id={id}
+                    year={year}
+                    title={title}
+                    summary={summary}
+                    poster={medium_cover_image}
+                    genres={genres}
+                  />
+                );
+              }
+            )}
           </div>
         )}
       </section>

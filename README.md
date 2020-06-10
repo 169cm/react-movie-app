@@ -56,3 +56,9 @@ isLoading state
 - react Jsx markup
 - className
 - css import
+
+6/11
+
+- arrayOf
+- slice
+- arrays.map((array, index) => {})
