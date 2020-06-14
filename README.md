@@ -76,3 +76,10 @@ isLoading state
   - path
   - exact
   - component
+
+6/15
+
+- Link : react-router-dom
+- Link to=""
+- css initial
+- a:not(:last-child)
