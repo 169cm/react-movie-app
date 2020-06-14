@@ -62,3 +62,17 @@ isLoading state
 - arrayOf
 - slice
 - arrays.map((array, index) => {})
+
+6/12
+
+- react-router-dom
+- components folder
+- routes folder
+
+6/14
+
+- HashRouter
+- Route
+  - path
+  - exact
+  - component
