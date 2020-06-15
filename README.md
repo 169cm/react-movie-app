@@ -83,3 +83,7 @@ isLoading state
 - Link to=""
 - css initial
 - a:not(:last-child)
+
+6/16
+
+- Link to props
