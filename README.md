@@ -87,3 +87,8 @@ isLoading state
 6/16
 
 - Link to props
+
+6/17
+
+- redirect
+- github
